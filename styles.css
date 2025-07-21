@@ -565,6 +565,23 @@ hr{
   border-radius: 2px;
 }
 
+
+@media (max-width:1195px) {
+  .c-navbar{
+    padding: 0 90px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    transform: translateX(-50%);
+    height: 60px;
+    z-index: 100;
+ 
+  
+  }
+} 
+
 @media (max-width:1000px) {
  
   .c-navbar{
